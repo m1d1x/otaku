@@ -117,7 +117,7 @@ class ShikimoriAPI:
             return []
 
 
-# Пример использования ZHOPA
+# Пример использования ZHOPA222
 if __name__ == "__main__":
     client = ShikimoriAPI()
     
