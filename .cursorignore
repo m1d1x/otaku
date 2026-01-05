@@ -1,0 +1,50 @@
+# Зависимости и сборки
+node_modules/
+dist/
+build/
+out/
+.next/
+coverage/
+
+# Окружение и секреты (самое важное!)
+.env
+.env.*
+.env.local
+.env.development
+.env.production
+*.key
+*.pem
+id_rsa
+id_ed25519
+*.cert
+secrets/
+config/secrets/
+
+# Логи и временные файлы
+*.log
+logs/
+tmp/
+temp/
+
+# Большие/ненужные файлы
+*.csv
+*.xlsx
+*.parquet
+*.db
+*.sqlite
+*.bin
+*.zip
+*.tar.gz
+
+# Python-специфичное (если работаешь с python)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+.idea/
+
+# Можно отменить игнор (если что-то из .gitignore хочется вернуть)
+!.env.example
+!docs/private.md
